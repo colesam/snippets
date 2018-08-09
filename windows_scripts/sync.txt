@@ -1,0 +1,2 @@
+open stored_session
+synchronize local [local docs] [docs on server]
