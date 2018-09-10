@@ -1,0 +1,10 @@
+use user-data
+
+db.createUser({
+	user: "username", 
+	pwd: "password", 
+	roles:[
+		{role: "read", db: "user-data"},
+		{role:"readWrite", db: "job-scraper"}
+	]
+});

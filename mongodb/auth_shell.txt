@@ -1,0 +1,1 @@
+mongo -u example-user -p --authenticationDatabase user-data
