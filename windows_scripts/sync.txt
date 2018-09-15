@@ -1,2 +1,0 @@
-open stored_session
-synchronize remote [local docs] [docs on server]
