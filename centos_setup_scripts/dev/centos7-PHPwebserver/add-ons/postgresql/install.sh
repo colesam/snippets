@@ -15,6 +15,7 @@ systemctl start postgresql
 systemctl enable postgresql
 
 # from here you may run the following commands to create a user, database, and run the shell
-# sudo -u -i postgres
+# passwd postgres
+# su postgres
 # createuser --interactive
 # createdb db-name (typically db-name will match the name of the user)
