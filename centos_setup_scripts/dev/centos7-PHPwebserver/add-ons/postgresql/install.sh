@@ -1,5 +1,4 @@
 #!/bin/bash
-yum update -y
 
 # install postgresql
 yum install -y --enablerepo=remi-php72 php-pgsql
